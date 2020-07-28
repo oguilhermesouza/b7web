@@ -10,11 +10,11 @@ $atributos = [
 $lista = [
     'nome' => 'Bonieky',
     'idade' => 90,
-    ...$atributos
+    'atributos' => $atributos
 ];
 
 echo "NOME: " . $lista['nome'];
 echo '<br>';
-echo "FORÇA: " . $lista['forca'];
+echo "FORÇA: " . $lista['atributos']['forca'];
 echo '<br>';
-echo "VIDA: " . $lista['vida'];
+echo "VIDA: " . $lista['atributos']['vida'];
