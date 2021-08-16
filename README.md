@@ -1,1 +1,1 @@
-Repositorio criado com o objetivo de registrar meu desenvolvimento pessoal em varias stacks.
+Repositório criado com o objetivo de registrar meu desenvolvimento pessoal em stacks como Front e Back.
