@@ -1,1 +1,0 @@
-Projeto base desenvolvido durante o curso de js da b7web e acrescentado funcionalidades posteriormente.
