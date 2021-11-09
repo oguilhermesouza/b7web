@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+main {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    color: #757575;
+}
+#container form label {
+    display: flex;
+    margin: 5px;
+}
+#container form input[type=date],
+#container form input[type=number], 
+#container form input[type=text] {
+    width: 100%;
+}
+#container form input[placeholder="Nº"] {
+    width: 20%;
+}
+.form-inline-sexo {
+    display: flex;
+    margin-top: 12px;
+}
+.no-border-bottom {
+    border: none !important;
+    margin-top: 0px !important;
+}
+.form-block {
+    display: flex;
+}
+.form-block span {
+    flex: 1;
+}
+#container form input {
+    font-family: 'Poppins', sans-serif;
+    color: #757575;
+    border: none;
+    border-bottom: 1px solid #757575;
+    font-size: 16px;
+    padding: 5px 0px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+#container form button {
+    font-family: 'Poppins', sans-serif;
+    width: 150px;
+    font-size: 18px;
+    padding: 5px;
+    margin: 0 auto;
+    background-color: #FD6773;
+    color: #fff;
+    border: none;
+    
+}
+
+#container form button:hover {
+    transform: scale(1.05);
+}

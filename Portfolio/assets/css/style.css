@@ -1,0 +1,128 @@
+/* FONTES */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,800;1,400&display=swap');
+/* VARIAVEIS */
+:root {
+    --html-bg: #004993;
+    --javascript-bg: #F09F00;
+    --php-bg: #8993C1;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+main {
+    max-width: 1140px;
+    margin: auto;
+}
+.line {
+    height: 10px;
+    background-color: #3C3C3C; 
+}
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+}
+.header--group {
+    display: flex;
+    align-items: center;
+    color: #3C3C3C;
+}
+.header--title h1 {
+    margin: 0px;
+    font-size: 48px;
+    font-weight: normal;
+    line-height: 0.8;
+}
+.header--title h2 {
+    margin: 0px;
+    font-size: 20px;
+    font-weight: normal;
+}
+.logo::before {
+    content: "</>";
+    font-size: 48px;
+    margin-right: 10px;
+}
+header ul {
+    display: flex;
+    gap: 10px;
+}
+header li {
+    list-style: none;
+    font-size: 50px;
+    color: #3C3C3C;
+    border-bottom: 5px solid transparent; 
+}
+header .html:hover {
+    border-bottom: 5px solid var(--html-bg); 
+}
+header .javascript:hover {
+    border-bottom: 5px solid var(--javascript-bg); 
+}
+header .php:hover {
+    border-bottom: 5px solid var(--php-bg); 
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 10px;
+}
+.container .html {
+    background-color: var(--html-bg);
+}
+.container .javascript {
+    background-color: var(--javascript-bg);
+}
+.container .php {
+    background-color: var(--php-bg);
+}
+.container--modulo {
+    grid-column: 1 / 2;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+.container--description {
+    background-color: rgb(233, 233, 233);
+}
+.container .title {
+    background-image: url('../images/title.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    margin-left: 2px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+.container .access {
+    background-image: url('../images/access.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 20px;
+    margin-left: 2px;
+}
+.container .about {
+    background-image: url('../images/desc.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    margin-left: 2px;
+    padding-left: 20px;
+}
+.container .title:hover,
+.container .about:hover,
+.container .access:hover {
+    background-color: #fff;
+}
+.container .access a {
+    text-decoration: none;
+    color: #000;
+}
+.modulo--8 {
+    grid-row: 2 / 4;
+}
