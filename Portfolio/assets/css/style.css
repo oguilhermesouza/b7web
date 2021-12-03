@@ -116,6 +116,9 @@ header li {
 .modulo--8 {
     grid-row: 2 / 5;
 }
+.modulo--2 {
+    grid-row: 1 / 4;
+}
 @media (min-width: 426px) and (max-width: 768px) {
     .container {
         display: grid;
